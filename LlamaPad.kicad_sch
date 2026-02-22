@@ -2911,10 +2911,6 @@
 		(uuid "ff13a2cf-882e-4127-a7b6-835c461ce2e3")
 	)
 	(no_connect
-		(at 157.48 140.97)
-		(uuid "0d50a87e-2da6-4984-b393-191a9662c9d3")
-	)
-	(no_connect
 		(at 157.48 176.53)
 		(uuid "27b32669-f928-4485-9452-0262ba94ccc5")
 	)
@@ -2927,16 +2923,8 @@
 		(uuid "65ea1e8a-e651-42ab-9053-c36fee7c87aa")
 	)
 	(no_connect
-		(at 157.48 151.13)
-		(uuid "6ede141f-0d78-4575-affb-4d78cbb3f710")
-	)
-	(no_connect
 		(at 111.76 130.81)
 		(uuid "72590c56-7087-434b-91aa-b176477efa9d")
-	)
-	(no_connect
-		(at 157.48 168.91)
-		(uuid "7aa39506-a17f-49d4-8c66-fbb333711df0")
 	)
 	(no_connect
 		(at 111.76 133.35)
@@ -2947,36 +2935,8 @@
 		(uuid "9405f6d9-c0fe-43a5-a7fb-86b14a9354a4")
 	)
 	(no_connect
-		(at 157.48 146.05)
-		(uuid "9f391fde-f075-4b60-9745-b0be91af585f")
-	)
-	(no_connect
-		(at 157.48 166.37)
-		(uuid "a7aeefbc-8c50-4bc6-91e0-4e6392fdfc93")
-	)
-	(no_connect
-		(at 157.48 148.59)
-		(uuid "a8fd6049-ace3-481f-931b-e4cce20924d3")
-	)
-	(no_connect
-		(at 157.48 153.67)
-		(uuid "ad591ede-8f10-4fa2-8102-da35f12c64b1")
-	)
-	(no_connect
-		(at 157.48 156.21)
-		(uuid "af5b7ed7-0e93-4b00-b586-350e4b7edf52")
-	)
-	(no_connect
-		(at 157.48 143.51)
-		(uuid "bd05a268-491f-4ae3-8e05-8bc7b206c052")
-	)
-	(no_connect
 		(at 251.46 88.9)
 		(uuid "be01f3f9-5739-4e0d-af55-c795cb6e5ee1")
-	)
-	(no_connect
-		(at 157.48 171.45)
-		(uuid "e388df78-a673-44a3-8544-31e0082624ab")
 	)
 	(wire
 		(pts
@@ -4100,6 +4060,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 153.67) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02bd55f-a551-45d9-b214-f7d6eb922498")
+	)
+	(wire
+		(pts
 			(xy 233.68 80.01) (xy 218.44 80.01)
 		)
 		(stroke
@@ -4618,6 +4588,28 @@
 		)
 		(uuid "ff4353c4-7a71-4cb8-86b2-cd3ab0a6879d")
 	)
+	(global_label "COL0"
+		(shape input)
+		(at 157.48 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0439b2b7-4b69-4235-bbce-8e504866fdf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 31.75 53.34 180)
@@ -4636,6 +4628,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 157.48 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d7a5452-3223-4199-8b26-b153098b1961")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4706,6 +4720,50 @@
 			)
 		)
 	)
+	(global_label "COL4"
+		(shape input)
+		(at 157.48 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bddec97-c5db-478e-9be5-7e6d912f3124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 157.48 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f318c48-b67b-4bda-a919-c701181ab80d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.7266 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "REC_SW_A2"
 		(shape input)
 		(at 58.42 139.7 0)
@@ -4724,28 +4782,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 111.76 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36aa4592-eca9-4ecd-b363-30ad50986b7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4796,7 +4832,7 @@
 	)
 	(global_label "REC_B1"
 		(shape input)
-		(at 111.76 166.37 180)
+		(at 111.76 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4806,12 +4842,34 @@
 		)
 		(uuid "3ad97ee3-9baa-4d97-91f1-f0eb7eac2ffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6387 166.37 0)
+			(at 101.6387 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 157.48 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d337639-0a32-45d9-a900-680caf7e3fa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.7266 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4829,28 +4887,6 @@
 		(uuid "3e382f6a-6685-4f54-9967-84c48465cdee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.8116 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
-		(at 111.76 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ad70f70-ccfa-4322-802f-5844b97951d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5134 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5008,7 @@
 	)
 	(global_label "REC_A1"
 		(shape input)
-		(at 111.76 161.29 180)
+		(at 111.76 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4982,29 +5018,7 @@
 		)
 		(uuid "7432b688-384f-4459-8984-8bfb07939e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8201 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 111.76 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7abffff0-d3e6-48b0-b188-da0b4f18e0fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 151.13 0)
+			(at 101.8201 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5074,7 @@
 	)
 	(global_label "REC_B2"
 		(shape input)
-		(at 111.76 168.91 180)
+		(at 111.76 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5070,51 +5084,7 @@
 		)
 		(uuid "8d21cb55-b1c6-4316-8d3b-c0f333b0d133")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6387 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape input)
-		(at 111.76 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d899580-6812-4de7-95a4-4b4d6743a5fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5134 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape input)
-		(at 111.76 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e01d4d9-6073-446c-a60a-fdf3d6fd5096")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5134 140.97 0)
+			(at 101.6387 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5096,7 @@
 	)
 	(global_label "ARGB_DATA"
 		(shape input)
-		(at 111.76 171.45 180)
+		(at 157.48 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5134,16 +5104,16 @@
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "92641390-fbed-4a7e-9d2f-d2c19a25b3d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4938 171.45 0)
+			(at 170.7462 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5214,28 +5184,6 @@
 			)
 		)
 	)
-	(global_label "ROW0"
-		(shape input)
-		(at 111.76 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a49970ac-adb1-4417-9095-cd4449435f20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.5134 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL0"
 		(shape input)
 		(at 36.83 33.02 90)
@@ -5280,6 +5228,28 @@
 			)
 		)
 	)
+	(global_label "ROW1"
+		(shape input)
+		(at 158.75 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b445e631-c3f8-4ec4-ac95-22f5cd2d7a88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.9966 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "REC_B1"
 		(shape input)
 		(at 43.18 180.34 180)
@@ -5304,22 +5274,22 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 111.76 156.21 180)
+		(at 157.48 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c1c9084b-d310-4626-beaf-ced1ed2052c1")
+		(uuid "bf442c55-473c-4606-a685-e66205c42ded")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 156.21 0)
+			(at 165.3033 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5346,24 +5316,46 @@
 			)
 		)
 	)
-	(global_label "COL4"
+	(global_label "ROW2"
 		(shape input)
-		(at 111.76 158.75 180)
+		(at 157.48 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ce0bfc3d-0bec-4ccb-bd73-f00a9f0c6097")
+		(uuid "ca2b4563-1166-4d8a-bc64-2f1a2ee6433c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 158.75 0)
+			(at 165.7266 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 157.48 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9f1da4f-c20c-4795-ab05-4db62cefe187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3033 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5403,28 +5395,6 @@
 		(uuid "e9de050b-b737-4267-a7f4-8011bd94431b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.8201 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 111.76 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f36a869b-3ea3-4195-bfc9-e4ffeff893d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 227.33 43.18 0)
 			(effects
 				(font
@@ -5694,7 +5664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 95.25 57.15 0)
 			(effects
 				(font
@@ -5852,7 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 245.11 96.52 0)
 			(effects
 				(font
@@ -5930,7 +5900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -6008,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -6153,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 245.11 60.96 0)
 			(effects
 				(font
@@ -6231,7 +6201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HackPad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "RotaryEncoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 46.99 138.176 0)
 			(effects
 				(font
@@ -6398,7 +6368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HackPad:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "RotaryEncoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 46.99 173.736 0)
 			(effects
 				(font
@@ -6475,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -6543,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -6613,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 191.77 78.74 0)
 			(effects
 				(font
@@ -6691,7 +6661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -6769,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 245.11 43.18 0)
 			(effects
 				(font
@@ -6935,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 227.33 96.52 0)
 			(effects
 				(font
@@ -7011,7 +6981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -7147,7 +7117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -7385,7 +7355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -7521,7 +7491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 191.77 60.96 0)
 			(effects
 				(font
@@ -7663,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 59.69 44.45 0)
 			(effects
 				(font
@@ -7955,7 +7925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 209.55 60.96 0)
 			(effects
 				(font
@@ -8033,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 227.33 60.96 0)
 			(effects
 				(font
@@ -8197,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 77.47 69.85 0)
 			(effects
 				(font
@@ -8265,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -8335,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -8675,7 +8645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 41.91 82.55 0)
 			(effects
 				(font
@@ -8812,7 +8782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -9042,7 +9012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 77.47 57.15 0)
 			(effects
 				(font
@@ -9112,7 +9082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HackPad:SK6812MINI-E_fixed"
+		(property "Footprint" "Llama_Other:SK6812MINI-E_fixed"
 			(at 227.33 78.74 0)
 			(effects
 				(font
@@ -9452,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 41.91 57.15 0)
 			(effects
 				(font
@@ -9520,7 +9490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 59.69 69.85 0)
 			(effects
 				(font
@@ -10036,7 +10006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -10104,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -10260,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -10328,7 +10298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "Switch_MX_Hotswap:MX-Hotswap-1U"
 			(at 95.25 44.45 0)
 			(effects
 				(font
